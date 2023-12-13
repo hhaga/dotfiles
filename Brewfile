@@ -1,0 +1,12 @@
+tap "coursier/formulas"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "docker"
+brew "docker-compose"
+brew "gnupg"
+brew "node@16", link: true
+brew "openjdk@11"
+brew "wget"
+brew "yarn"
+brew "coursier/formulas/coursier"
