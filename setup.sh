@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-script/install_homebrew.sh
-script/install_omz.sh
+scripts/install_homebrew.sh
+scripts/install_omz.sh
