@@ -116,6 +116,6 @@ export PATH="$PATH:/Users/hakon/Library/Application Support/Coursier/bin"
 export PATH="$PATH:/Users/hakon/Library/Application Support/JetBrains/Toolbox/scripts"
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
-export JAVA_HOME=`/usr/libexec/java_home -v 11\ `
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+export JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
 #export NODE_OPTIONS=--openssl-legacy-provider
